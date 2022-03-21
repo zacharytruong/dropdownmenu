@@ -1,0 +1,63 @@
+/* Global Styles */
+:root {
+  --primary-color: #DC4C3F;
+  --secondary-color: #e7877e;
+  --primary-white-color: #FFF;
+  --primary-text-color: #333333;
+  --secondary-text-color: #757575;
+  --dark-background-color: #141414;
+  --light-background-color: #f2f2f2;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 10px;
+  line-height: 1.6;
+}
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+  font-family: 'Expletus Sans', cursive;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 2rem;
+}
+p {
+  font-family: 'Hind', sans-serif;
+  font-size: 1.6rem;
+  color: var(--primary-text-color);
+  padding: 1rem 2rem;
+}
+ul,
+li {
+  font-family: 'Expletus Sans', sans-serif;
+  font-size: 1.6rem;
+  color: var(--secondary-text-color);
+  padding: 1rem 2rem;
+  list-style: none;
+}
+li:hover {
+  cursor: pointer;
+}
+.navigationContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.navList:hover {
+  border-bottom: .1rem solid var(--secondary-color);
+}
+.hide {
+  display: none;
+  opacity: 0;
+}
